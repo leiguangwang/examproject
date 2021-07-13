@@ -24,3 +24,4 @@ if choice==1:
     for file in filelist:
         x=open(file,encoding='utf-8')
         Newfile.write(x.read())
+        Newfile.write('\n')
